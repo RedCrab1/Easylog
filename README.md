@@ -12,6 +12,7 @@ version "V0.0.1.0"
  3. 采用工厂模式，可以设定输出日志到不同的log文件，根据logID区分，不同logID输出到不同文件文件夹下，以时间日期为文件名，
  　　　能保证日志文件不会过大，　也不会被覆盖．
 
+
  编译方法（测试）：
  　　g++ easylog.cpp main.cpp -lpthread -std=c++11 -o test
 
